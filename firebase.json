@@ -14,12 +14,12 @@
   "hosting": [
     {
       "target": "stage",
-      "public": ".firebase/hosting",
+      "public": "out",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
     },
     {
       "target": "prod",
-      "public": ".firebase/hosting",
+      "public": "out",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
     }
   ]
