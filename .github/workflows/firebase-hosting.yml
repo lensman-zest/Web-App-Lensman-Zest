@@ -36,7 +36,7 @@ jobs:
           if [ "${GITHUB_REF##*/}" == "yetToBeDecided" ]; then
             echo "Deploying to PROD..."
             npx firebase deploy --only hosting:prod --token "$FIREBASE_TOKEN"
-          elif [ "${GITHUB_REF##*/}" == "develop" ]
+          elif [ "${GITHUB_REF##*/}" == "develop" ]; then
             echo "Deploying to STAGING..."
             npx firebase deploy --only hosting:stage --token "$FIREBASE_TOKEN"
           else
