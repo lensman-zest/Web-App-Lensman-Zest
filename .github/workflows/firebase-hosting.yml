@@ -25,7 +25,6 @@ jobs:
       - name: Build Next.js app
         run: |
           npm run build
-          npx next export
 
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
