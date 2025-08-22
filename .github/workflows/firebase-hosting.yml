@@ -26,8 +26,8 @@ jobs:
         run: |
           npm run build
 
-      # - name: Install Firebase CLI
-      #   run: npm install -g firebase-tools
+      - name: Install Firebase CLI
+        run: npm install firebase-tools
 
       - name: Deploy to Firebase (staging or prod)
         env:
