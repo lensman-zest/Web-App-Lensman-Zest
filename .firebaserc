@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "stage": "walz-staging",
+    "prod": "web-app-lensman-zest",
+    "default": "walz-staging"
+  },
+  "targets": {
+    "walz-staging": {
+      "hosting": {
+        "stage": [
+          "walz-staging"
+        ],
+        "prod": [
+          "web-app-lensman-zest"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
