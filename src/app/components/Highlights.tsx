@@ -25,7 +25,7 @@ export default function Highlights() {
                 <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center">
                     Featured Projects
                 </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {items.map((item, i) => (
                         <a key={i} href={item.href} className="group relative rounded-lg overflow-hidden border border-[#333] hover:border-[#b84a39] transition-all">
                             <img src="" alt="" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duraation-300"/>
