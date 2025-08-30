@@ -5,7 +5,7 @@ export default function FeatureReels(){
     <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center">
       Customer Reels
     </h2>
-    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
       {[
         { label: "Film/TV", image: "/reels/film.jpg", href: "/reels/film" },
         { label: "Games/VR", image: "/reels/games.jpg", href: "/reels/games" },
@@ -21,11 +21,6 @@ export default function FeatureReels(){
             alt={item.label}
             className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
           />
-          <div className="p-4 bg-[#2C2C2C]">
-            <h3 className="text-lg font-semibold group-hover:text-[#B84A39] transition-colors">
-              {item.label}
-            </h3>
-          </div>
         </a>
       ))}
     </div>

@@ -47,7 +47,7 @@ export default function Learning(){
             {/* Tutorials */}
             <div>
                 <h2 className="text-xs mb-8 text-left">Tutorials</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {tutorials.map((item, i) => (
                         <a key={i} href={item.href} className="group border border-[#333] rounded-lg overflow-hiden hover:border-[#b84a39] transition-all">
                             <img src={item.image} alt={item.title} className="w-full h-48 object-cover group-hover:scale-101 transition-transform duration-300"/>
@@ -61,7 +61,7 @@ export default function Learning(){
             </div>
             <div>
                 <h2 className="text-xs mb-8 text-left">Talks</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {talks.map((item, i) => (
                         <a key={i} href={item.href} className="group border border-[#333] rounded-lg overflow-hiden hover:border-[#b84a39] transition-all">
                             <img src={item.image} alt={item.title} className="w-full h-48 object-cover group-hover:scale-101 transition-transform duration-300"/>
@@ -75,7 +75,7 @@ export default function Learning(){
             </div>
             <div>
                 <h2 className="text-xs mb-8 text-left">Content</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {content.map((item, i) => (
                         <a key={i} href={item.href} className="group border border-[#333] rounded-lg overflow-hiden hover:border-[#b84a39] transition-all">
                             <img src={item.image} alt={item.title} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"/>
